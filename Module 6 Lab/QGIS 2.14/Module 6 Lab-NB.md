@@ -1,4 +1,4 @@
-<!-- complied with pandoc -V geometry:margin=0.8in Module 6 Lab-NB.md -s -o Module 6 Lab-NB.docx --> 
+<!-- complied with pandoc -V geometry:margin=0.8in "Module 6 Lab-NB.md" -s -o "Module 6 Lab-NB.docx" --> 
 
 # GST 102: Spatial Analysis
 ## Lab 6 - Vector Data Analysis - Network Analysis
@@ -176,7 +176,7 @@ We are going to create a new mapset, and import layers into that from the shapfi
 
 9. The first step in doing a network analysis in GRASS is the build a network dataset. In the GRASS Tools window, expand Vector | Spatial Analysis | Network analysis| v.net - Network Maintenance tool. This will open the tool in a new tab to the right of the Browser tab.
 
-This tool will create a linear network of San Francisco streets and attach nodes representing the Police stations.Additionally, the tool itself has three tabs. Options, Output, and Manual. The Options tab is where you fill out your parameters before running the tool. When you run the tool, it will switch to the Output tab and you will see details about the running process. The Manual tab contains the documentation for the tool.
+This tool will create a linear network of San Francisco streets and attach nodes representing the Police stations. Additionally, the tool itself has three tabs. Options, Output, and Manual. The Options tab is where you fill out your parameters before running the tool. When you run the tool, it will switch to the Output tab and you will see details about the running process. The Manual tab contains the documentation for the tool.
 
 10. Enter the parameters described below and shown in the figure below:
 
